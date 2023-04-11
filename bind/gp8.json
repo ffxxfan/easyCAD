@@ -1,0 +1,97 @@
+{
+    "Name":"GP8",
+    "DOF":6,
+    "Shapes":[
+      {
+        "Path": ".\\gp8\\link0.iges"
+      },
+      {
+        "Path": ".\\gp8\\link1.iges"
+      },
+      {
+        "Path": ".\\gp8\\link2.iges"
+      },
+      {
+        "Path": ".\\gp8\\link3.iges"
+      },
+      {
+        "Path": ".\\gp8\\link4.iges"
+      },
+      {
+        "Path": ".\\gp8\\link5.iges"
+      },
+      {
+        "Path": ".\\gp8\\link6.iges"
+      }
+    ],
+    "DH":[
+        {
+            "theta":0,
+            "d":330,
+            "alpha":-90,
+            "a":40
+        },
+        {
+            "theta":-90,
+            "d":0,
+            "alpha":0,
+            "a":345
+        },
+        {
+            "theta":0,
+            "d":0,
+            "alpha":-90,
+            "a":40
+        },
+        {
+            "theta":0,
+            "d":340,
+            "alpha":90,
+            "a":0
+        },
+        {
+            "theta":0,
+            "d":0,
+            "alpha":-90,
+            "a":0
+        },
+        {
+            "theta":180,
+            "d":80,
+            "alpha":0,
+            "a":0
+        }
+    ],
+	"Limits":[
+		{
+			"min":-170,
+			"max":170
+		},
+		{
+			"min":-65,
+			"max":145
+		},
+		{
+			"min":-190,
+			"max":70
+		},
+		{
+			"min":-190,
+			"max":190
+		},
+		{
+			"min":-135,
+			"max":135
+		},
+		{
+			"min":-360,
+			"max":360
+		}
+	],
+    "TCP":{
+        "theta":0,
+        "d":142,
+        "alpha":0,
+        "a":61
+    }
+}
